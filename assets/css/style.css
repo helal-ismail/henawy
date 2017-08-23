@@ -587,6 +587,9 @@ a.navbar-brand.our_logo {
     top: -50px;
     width: 25%;
 }
+.call_us_text {
+    direction: rtl;
+}
 .header_top_menu .call_us_text a {
     color: #666;
     font-size: 15px;
@@ -909,12 +912,48 @@ a.navbar-brand.our_logo {
     color: #fff;
 }
 .single_widget {
-    padding-bottom: 50px;
-    padding-top: 60px;
+    direction: rtl;
+    padding: 50px 80px 50px 0px;
+    text-align: right;
 }
 .footer_widget_content h2 {
     color: #e7a331;
+    margin-bottom: 30px;
 }
+.phone_info {
+    direction: ltr;
+}
+.call_us_text {
+    padding: 5px;
+}
+.facebook_page {
+    font-family: sans-serif;
+}
+.phone_info span {
+    float: left;
+}
+.single_widget.footer_logo {
+    padding: 50px 0px;
+    float: right;
+}
+.single_widget_info ul li {
+    margin: 15px 0;
+}
+.single_widget_info ul li i {
+    margin-left: 10px;
+}
+.single_widget_info ul li a {
+    color: #fff;
+}
+
+/*.single_widget_info ul {
+    text-align: right;
+    padding: 20px 50px;
+}*/
+
+/*.single_widget_info ul.footer_menu {
+    padding: 20px 80px;
+}*/
 .single_widget_info p {
     margin-top: 40px;
 }
