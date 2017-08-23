@@ -148,7 +148,7 @@ h2 {
     line-height: 3rem;
     margin-bottom: .9rem;
     text-transform: uppercase;
-    color: #3879D9;
+    color: #cc0000;
 }
 
 h3 {
@@ -710,6 +710,18 @@ a.navbar-brand.our_logo {
     padding: 120px 0px;
     display: inline-block;
 }
+.single_abouts_text {
+    direction: rtl;
+    margin-right: 90px;
+}
+.single_abouts_text h2 {
+    margin-bottom: 40px;
+    font-size: 4rem;
+}
+.single_abouts_text p {
+    font-size: 1.8rem;
+    line-height: 170%;
+}
 .single_abouts_text h4 {
     color: #000000;
 }
@@ -754,8 +766,10 @@ a.navbar-brand.our_logo {
     color: #000000;
 }
 .head_title {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding: 40px 0 50px 0;
+}
+.head_title h2 {
+    font-size: 4rem;
 }
 .single_portfolio_text {
     display: inline-block;
@@ -889,13 +903,7 @@ a.navbar-brand.our_logo {
 
 /* Footer Section CSS */
 .footer_widget {
-    background: url(../images/footerbg.jpg) center top no-repeat scroll;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    overflow: hidden;
+    background-color: #1c1c1c;
 }
 .footer_widget_content {
     color: #fff;
@@ -904,9 +912,8 @@ a.navbar-brand.our_logo {
     padding-bottom: 50px;
     padding-top: 60px;
 }
-.single_widget h3 {
-    font-size: 1.875rem;
-    font-family: 'Pacifico', cursive;
+.footer_widget_content h2 {
+    color: #e7a331;
 }
 .single_widget_info p {
     margin-top: 40px;
@@ -935,17 +942,15 @@ a.navbar-brand.our_logo {
 .footer {
     background: #000;
 }
-.footer .copyleft p {
+.footer .copyright p {
+    direction: rtl;
     padding: 25px;
     color: #fff;
 }
-.footer .copyleft p i {
+.footer .copyright p a {
     padding: 0px 10px;
-    color: #ff0000;
-}
-.footer .copyleft p a {
-    padding: 0px 10px;
-    color: green;
+    color: #e7a331;
+    font-family: sans-serif;
 }
 
 /* scrollup */
