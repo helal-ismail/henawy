@@ -10,6 +10,18 @@ Author URI: http://bootstrapthemes.co
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: "GE SS Unique";
+    src: url("../fonts/GE_SS_Unique_Light.otf");
+    /*src: url("css/fonts/Harabara.woff") format("woff"), url("css/fonts/Harabara.otf") format("opentype"), url("css/fonts/Harabara.svg#filename") format("svg");*/
+}
+
+@font-face {
+    font-family: "AL-Majd";
+    src: url("../fonts/AL-Majd.ttf");
+    /*src: url("css/fonts/Harabara.woff") format("woff"), url("css/fonts/Harabara.otf") format("opentype"), url("css/fonts/Harabara.svg#filename") format("svg");*/
+}
+
 html, body {
     background-color: #1E2E3B;
     font-size: 15px;
@@ -669,11 +681,10 @@ a.navbar-brand.our_logo {
 }
 .main_slider {}
 .main_slider .main_slider_content h1 {
-    font-size: 6rem;
+    font-size: 13rem;
     font-family: 'Al-Majd';
     /*font-family: 'Pacifico', cursive;*/
 
-    font-size: 200px;
     color: #fff;
     line-height: 6rem;
     margin: 0px 0px 80px 0px;
@@ -681,6 +692,7 @@ a.navbar-brand.our_logo {
 .main_slider .main_slider_content p {
     padding-top: 20px;
     font-size: 32px;
+    line-height: 2rem;
 }
 .main_slider .main_slider_content p:last-of-type {
     margin-top: 40px;
@@ -929,8 +941,11 @@ a.navbar-brand.our_logo {
 .facebook_page {
     font-family: sans-serif;
 }
+.single_widget_info .phone_info i {
+    float: right;
+}
 .phone_info span {
-    float: left;
+    /*float: left;*/
 }
 .single_widget.footer_logo {
     padding: 50px 0px;
@@ -1023,4 +1038,11 @@ a.navbar-brand.our_logo {
     margin-top: -7px;
     margin-right: -6px;
     text-decoration: none;
+}
+.navbar-default .navbar-toggle {
+    float: left;
+    margin-left: 30px;
+}
+.navbar-nav {
+    float: left;
 }
