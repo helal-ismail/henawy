@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Saira+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
@@ -22,7 +23,7 @@
     <link rel="stylesheet" href="assets/css/plugins.css" />
 
     <!--Theme custom css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleEN.css">
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -34,6 +35,7 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <span style="display:none;" id="lang-val">0</span>
     <div class='preloader'>
         <div class='loaded'>&nbsp;</div>
     </div>
@@ -66,17 +68,13 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                <a class="navbar-brand our_logo" href="#"><img src="assets/images/logo.png" alt="" /></a>
+                                <a class="navbar-brand our_logo" href="#"></a>
                             </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                 <ul class="nav navbar-nav navbar-left">
-                                    <li><a href="#slider">الرئيسية</a></li>
-                                    <li><a href="#products">منتجاتنا</a></li>
-                                    <li><a href="#portfolio">معرضنا</a></li>
-                                    <li><a href="#footer_widget">اتصل بنا</a></li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
@@ -96,9 +94,6 @@
                         <div class="main_slider text-center">
                             <div class="col-md-12">
                                 <div class="main_slider_content wow zoomIn" data-wow-duration="1s">
-                                    <h1>الحناوي</h1>
-                                    <p>لتجارة الشيشة و المعسل</p>
-                                    <p>توكيل خليل مأمون</p>
                                 </div>
                             </div>
                         </div>
@@ -120,9 +115,6 @@
 
                         <div class="col-md-6">
                             <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
-                                <h2>منتجاتنا</h2>
-                                <p>توكيل معتمد خليل مأمون البحر الأحمر</p>
-                                <p>يوجد لدينا جميع أنواع الشيشة العادي منها والفاخر ومستلزماتها كما يوجد لدينا جميع أنواع المعسل المحلي منها والمستورد </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +128,6 @@
                     <div class="portfolio_content text-center  wow fadeIn" data-wow-duration="5s">
                         <div class="col-md-12">
                             <div class="head_title text-center">
-                                <h2>معرضنا</h2>
                             </div>
 
                             <div class="main_portfolio_content">
@@ -189,29 +180,11 @@
                     <div class="footer_widget_content text-center">
                         <div class="col-md-4">
                             <div class="single_widget wow fadeIn" data-wow-duration="2s">
-                                <h2>اتصل بنا</h2>
-
-                                <div class="single_widget_info">
-                                    <ul>
-                                        <li class="phone_info"><i class="fa fa-phone-square" aria-hidden="true"></i><span> (+20) 115 2229 330 , (+20) 122 6349 299</span></li>
-                                        <li class="facebook_page"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook Page</a></li>
-                                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span>شارع شيري , أمام مطعم مؤمن , الغردقة</span></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="single_widget wow fadeIn" data-wow-duration="4s">
-                                <h2>القائمة</h2>
-
-                                <div class="single_widget_info">
-                                    <ul class="footer_menu">
-                                        <li><a href="#slider"><i class="fa fa-home" aria-hidden="true"></i>الرئيسية</a></li>
-                                        <li><a href="#products"><i class="fa fa-fire" aria-hidden="true"></i>منتجاتنا</a></li>
-                                        <li><a href="#portfolio"><i class="fa fa-camera" aria-hidden="true"></i>معرضنا</a></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
 
@@ -219,7 +192,6 @@
                             <div class="single_widget wow fadeIn footer_logo" data-wow-duration="5s">
 
                                 <div class="single_widget_form">
-                                    <img src="assets/images/Henawy-logo-footer.png">
                                 </div>
                             </div>
                         </div>
@@ -236,7 +208,6 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="copyright wow zoomIn" data-wow-duration="3s">
-                            <p>تم بواسطة شركة<a href="http://raptors.tech"> Raptors LLC </a>جميع الحقوق محفوظة</p>
                         </div>
                     </div>
                 </div>
@@ -255,6 +226,7 @@
     <script src="assets/js/wow/wow.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/lang-switch.js"></script>
 </body>
 
 </html>
